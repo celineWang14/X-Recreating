@@ -1,0 +1,155 @@
+.right-searchbar{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  right: 98px;
+  top: 0;
+  height: 59px;
+  z-index: 500;
+}
+
+.right-searchbar img{
+  position: absolute;
+  left: 42px;
+  top: 15px;
+  width: 24px;
+  height: 24px;
+}
+
+.right-searchbar input{
+  background-color: rgb(40, 40, 43);
+  border: none;
+  width: 290px;
+  margin-left: 24px;
+  margin-top: -2px;
+  height: 44px;
+  border-radius: 22px;
+  padding-left: 56px;
+  font-size: 15px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.right-searchbar input:focus{
+  border: rgb(0, 162, 255);
+  border-width: 1px;
+  border-style: solid;
+}
+
+.right-searchbar-hover{
+  overflow: hidden;
+  opacity: 0;
+  width: 314px;
+  gap: 0px;
+  height: 160px;
+  position:absolute;
+  top: 46px;
+  left: 24px;
+  background-color:black;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.433);
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding:10px 16px;
+  padding-bottom: 0px;
+  transition-delay: 0.3s;
+}
+
+.right-searchbar-hover img{
+  position: static;
+}
+
+.right-searchbar-hover-header{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.recent{
+  font-size: 22px;
+  color: white;
+  font-weight: bold;
+}
+
+.clearall{
+  color: rgb(75, 163, 251);
+}
+
+.clearall-container:hover{
+  cursor: pointer;
+  background-color: rgb(4, 25, 45);
+}
+
+.right-searchbar-hover-content{
+  margin-top: 10px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding-left: 16px;
+  margin-left: -16px;
+  width: 330px;
+  height: 90px;
+  transition: all 0.15s;
+}
+
+.right-searchbar-hover:hover{
+  pointer-events:all;
+}
+
+.right-searchbar-hover-content:hover{
+  background-color: rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.right-searchbar-hover-search:hover{
+  background-color: rgb(30, 30, 30);
+  cursor: pointer;
+}
+
+.right-searchbar-hover-content-head img{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  position:static;
+}
+
+.right-searchbar-hover-content-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-searchbar-hover-search{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding-left: 28px;
+  margin-left: -16px;
+  height: 80px;
+  width: 330px;
+  margin-top: 4px;
+  transition: all 0.15s;
+}
+
+.right-searchbar-hover-search img{
+  width: 20px;
+  height: 20px;
+}
+
+.right-searchbar-hover-search p{
+  color: white;
+}
+
+.right-searchbar input:focus +.right-searchbar-hover{
+  opacity: 1;
+}
+
+
+
+
+

@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <link rel="stylesheet" href="content.css">
+    <link rel="stylesheet" href="rightbar.css">
+    <link rel="stylesheet" href="rightside.css">
+  </head>
+  <body>
+  <div class="layout">
+    <div class="sidebar">
+      <div class="x">
+        <img class="x-icon" src="icon/icon-x.jpg">
+      </div>
+      <div class="nav">
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-home.png">
+          <p class="nav-titles">Home</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-search.png">
+          <p class="nav-titles">Explore</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-notifications.png">
+          <p class="nav-titles">Notifications</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-messages.png">
+          <p class="nav-titles">Messages</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-grok.png">
+          <p class="nav-titles">Grok</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-bookmarks.png">
+          <p class="nav-titles">Bookmarks</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-communities.png">
+          <p class="nav-titles">Communities</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-profile.png">
+          <p class="nav-titles">Profile</p>
+        </div>
+        <div class="nav-parts">
+          <img class="icon" src="icon/icon-more.svg">
+          <p class="nav-titles">More</p>
+        </div>
+        <div class="post">
+          <button class="post-button">Post</button>
+        </div>
+        </div>
+        <div class="profile">
+          <div class="profile-head">
+            <img class="profile-head-picture" src="head.jpg">
+          </div>
+          <div class="profile-info">
+            <p class="profile-info-nickname">NANNAN WANG</p>
+            <p class="profile-info-name">@wang_nannan95044</p>
+          </div>
+          <div class="profile-more">
+            <img class="profile-more-icon" src="icon/icon-more.svg">
+          </div>
+      </div>
+    </div>
+
+    <div class="topbar">
+      <div class="topbar-left">
+        <div>
+          <p class="topbar-left-title">For you</p>
+        </div>
+        <div class="chosen1"></div>
+      </div>
+      <div class="topbar-right">
+        <p class="topbar-right-title">Following</p>
+        <div class="chosen2"></div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="draft">
+        <div class="draft-head">
+          <img class="draft-head-picture" href="head.jpg">
+        </div>
+        <div class="draft-write">
+          <div class="draft-write-input">
+            <input class="draft-write-inputbox" type="text" placeholder="What is happening?!">
+          </div>
+          <div class="draft-write-kitbar">
+            <div class="draft-write-kitbar-icons">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/picture.png">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/gif.png">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/list.png">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/emoji.png">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/calendar.png">
+              <img class="draft-write-kitbar-icons-pictures" src="icon/location.png">
+            </div>
+            <div class="draft-write-kitbar-post">
+              <button class="draft-write-kitbar-post-button">Post</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="show">
+        <p class="show-text">Show 140 posts</p>
+      </div>
+
+      <div class="posts">
+        <div class="posts-head">
+            <img class="posts-head-image" src="IcyVert.jpg">
+          <div class="posts-head-hover">
+            <div class="posts-head-hover-user">
+              <div class="posts-head-hover-user-info">
+                <div>
+                  <img class="posts-head-hover-user-info-picture" src="IcyVert.jpg">
+                </div>
+                <div class="posts-head-hover-user-info-nickname">
+                  <div>
+                    <p class="posts-user-nickname" style="margin-top: 2px;">IcyVert</p>
+                  </div>
+                  <div>
+                    <img class="posts-user-verified" src="icon/verified.png">
+                  </div>
+                </div>
+                <div>
+                  <p class="posts-user-name" style="margin-top: -4px;">@IcyVert</p>
+                </div>
+              </div>
+              <div>
+                <button class="posts-head-hover-user-info-follow">Follow</button>
+              </div>
+            </div>
+            <div style="margin-top: 10px;">
+              <p class="posts-head-hover-des">
+                Sports and Gaming | Social <span style="color: rgb(56, 121, 249);">@RealApp_</span>| <span style="color: rgb(57, 123, 255);">@StarkRaveSportscontent</span> creator
+              </p>
+            </div>
+            <div class="posts-head-hover-follow">
+              <div>
+                <p class="posts-head-hover-follow-1">3521 <span style="color: gray;">Following</span></p>
+              </div>
+              <div>
+                <p class="posts-head-hover-follow-1">66.2k <span style="color: gray;">Followers</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="posts-right">
+          <div class="posts-user">
+            <div style="display: flex; gap: 2px;">
+              <p class="posts-user-nickname">IcyVert</p>
+              <img class="posts-user-verified" src="icon/verified.png">
+              <p class="posts-user-name">@IcyVert · 14h</p>
+            </div>
+            <div>
+            <img class="posts-user-more" src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="posts-content">Why did no one tell me Mark Andrews changed his position to left tackle??????</p>
+          </div>
+          <div class="posts-feedback">
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/comment.png">
+              <img class="posts-feedback-info-icon-2" src="icon/comment-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">70</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost.png">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">691</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/like.png">
+              <img class="posts-feedback-info-icon-2" src="icon/like-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">19k</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/view.png">
+              <img class="posts-feedback-info-icon-2" src="icon/view-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">1M</p>
+            </div>
+            <div class="posts-content-others">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-gray.png">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-active.png" style="opacity: 0;">
+              <img class="posts-content-others-share" src="icon/share.png">
+              <img class="posts-content-others-share" src="icon/share-active.png" style="opacity: 0;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="posts">
+        <div class="posts-head">
+            <img class="posts-head-image" src="headnavy.jpg">
+          <div class="posts-head-hover">
+            <div class="posts-head-hover-user">
+              <div class="posts-head-hover-user-info">
+                <div>
+                  <img class="posts-head-hover-user-info-picture" src="headnavy.jpg">
+                </div>
+                <div class="posts-head-hover-user-info-nickname">
+                  <div>
+                    <p class="posts-user-nickname" style="margin-top: 2px;"></p>
+                  </div>
+                  <div>
+                    <img class="posts-user-verified" src="icon/verified.png">
+                  </div>
+                </div>
+                <div>
+                  <p class="posts-user-name" style="margin-top: -4px;">@headnavy</p>
+                </div>
+              </div>
+              <div>
+                <button class="posts-head-hover-user-info-follow">Follow</button>
+              </div>
+            </div>
+            <div style="margin-top: 10px;">
+              <p class="posts-head-hover-des">
+                Manny 🖤
+              </p>
+            </div>
+            <div class="posts-head-hover-follow">
+              <div>
+                <p class="posts-head-hover-follow-1">2484 <span style="color: gray;">Following</span></p>
+              </div>
+              <div>
+                <p class="posts-head-hover-follow-1">17k <span style="color: gray;">Followers</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="posts-right">
+          <div class="posts-user">
+            <div style="display: flex; gap: 2px;">
+              <p class="posts-user-nickname"></p>
+              <img class="posts-user-verified" src="icon/verified.png">
+              <p class="posts-user-name">@headnavy · 21h</p>
+            </div>
+            <div>
+            <img class="posts-user-more" src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="posts-content">Every time Drake has dissed Rihanna and Asap Rocky unprovoked
+
+              A thread 🧵
+            </p>
+            <div class="posts-content-image">
+                <div>
+                  <img class="posts-content-image-photo" src="navy1.jpeg">
+                </div>
+            </div>
+
+          </div>
+          <div class="posts-feedback">
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/comment.png">
+              <img class="posts-feedback-info-icon-2" src="icon/comment-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">67</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost.png">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">413</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/like.png">
+              <img class="posts-feedback-info-icon-2" src="icon/like-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">3.4k</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/view.png">
+              <img class="posts-feedback-info-icon-2" src="icon/view-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">1.3k</p>
+            </div>
+            <div class="posts-content-others">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-gray.png">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-active.png" style="opacity: 0;">
+              <img class="posts-content-others-share" src="icon/share.png">
+              <img class="posts-content-others-share" src="icon/share-active.png" style="opacity: 0;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="posts">
+        <div class="posts-head">
+            <img class="posts-head-image" src="Katy.jpg">
+          <div class="posts-head-hover">
+            <div class="posts-head-hover-user">
+              <div class="posts-head-hover-user-info">
+                <div>
+                  <img class="posts-head-hover-user-info-picture" src="Katy.jpg">
+                </div>
+                <div class="posts-head-hover-user-info-nickname">
+                  <div>
+                    <p class="posts-user-nickname" style="margin-top: 2px;">KATY PERRY</p>
+                  </div>
+                  <div>
+                    <img class="posts-user-verified" src="icon/verified.png">
+                  </div>
+                </div>
+                <div>
+                  <p class="posts-user-name" style="margin-top: -4px;">@katyperry</p>
+                </div>
+              </div>
+              <div>
+                <button class="posts-head-hover-user-info-follow">Follow</button>
+              </div>
+            </div>
+            <div style="margin-top: 10px;">
+              <p class="posts-head-hover-des">
+                LIFETIMES OUT NOW. PRE-ORDER 143, OUT SEPTEMBER 20
+              </p>
+            </div>
+            <div class="posts-head-hover-follow">
+              <div>
+                <p class="posts-head-hover-follow-1">244 <span style="color: gray;">Following</span></p>
+              </div>
+              <div>
+                <p class="posts-head-hover-follow-1">106.1M <span style="color: gray;">Followers</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="posts-right">
+          <div class="posts-user">
+            <div style="display: flex; gap: 2px;">
+              <p class="posts-user-nickname">KATY PERRY</p>
+              <img class="posts-user-verified" src="icon/verified.png">
+              <p class="posts-user-name">@katyperry · 23h</p>
+            </div>
+            <div>
+            <img class="posts-user-more" src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="posts-content">Swapped out the rehearsal sweats last night to support my baby daddy’s new film premiere #TheCut at the opening night of 
+              @TIFF_NET
+               in Toronto last night. Couldn’t be more proud of the intense amount of physical and mental effort he gave for this role (you’ll see… 🫣) But tbh I’m</p>
+            <p class="posts-content" style="color: rgb(75, 159, 255);">Show more</p>
+            <div class="posts-content-image">
+              <div>
+                <img class="posts-content-image-photo" src="katy-image1.jpeg">
+              </div>
+              <div>
+                <img class="posts-content-image-photo" src="katy-image2.jpeg">
+              </div>
+            </div>
+          </div>
+          <div class="posts-feedback">
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/comment.png">
+              <img class="posts-feedback-info-icon-2" src="icon/comment-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">1.8k</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost.png">
+              <img class="posts-feedback-info-icon-repost" src="icon/repost-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">3.6k</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/like.png">
+              <img class="posts-feedback-info-icon-2" src="icon/like-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">57k</p>
+            </div>
+            <div class="posts-feedback-info">
+              <img class="posts-feedback-info-icon-1" src="icon/view.png">
+              <img class="posts-feedback-info-icon-2" src="icon/view-active.png" style="opacity: 0;">
+              <p class="posts-feedback-info-counts">16M</p>
+            </div>
+            <div class="posts-content-others">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-gray.png">
+              <img class="posts-content-others-bookmark" src="icon/bookmark-active.png" style="opacity: 0;">
+              <img class="posts-content-others-share" src="icon/share.png">
+              <img class="posts-content-others-share" src="icon/share-active.png" style="opacity: 0;">
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="right-searchbar">
+        <input type="text" placeholder="Search">
+        <div class="right-searchbar-hover">
+          <div class="right-searchbar-hover-header">
+            <div>
+              <p class="recent">Recent</p>
+            </div>
+            <div  class="clearall-container" style="width: 80px; height: 30px; display: flex; align-items: center;
+            justify-content: center; border-radius: 15px;">
+              <p class="clearall">clear all</p>
+            </div>
+          </div>
+            <div class="right-searchbar-hover-content">
+              <div class="right-searchbar-hover-content-head">
+                <img src="headnavy.jpg">
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 2px;">
+                <img src="icon/verified.png" style="position: static; width: 20px; height: 20px;">
+                <p style="color: gray; font-size: 15px;">@headnavy</p>
+              </div>
+              <div>
+                <img style="position: static; margin-left: 152px; width: 20px; height: 20px;" src="icon/close.png">
+              </div>
+            </div>
+          <div class="right-searchbar-hover-search">
+            <div>
+              <img src="icon/icon-search.png">
+            </div>
+            <div>
+              <p>headnavy</p>
+            </div>
+            <div>
+              <img style="margin-left: 147px;" src="icon/close.png">
+            </div>
+          </div>
+        </div>
+        <img src="icon/search-gray.png">
+    </div>
+
+    <div class="rightside">
+      <div class="rightside-subscribe">
+        <div>
+          <p class="rightside-subscribe-title">Subscribe to Premium</p>
+        </div>
+        <div>
+          <p class="rightside-subscribe-passage">
+            Subscribe to unlock new features and if eligible, receive a share of ads revenue.
+          </p>
+        </div>
+        <div>
+          <button class="rightside-subscribe-button">Subscribe</button>
+        </div>
+      </div>
+      <div class="rightside-happens">
+        <div class="rightside-happens-title">
+          <p>What's happening</p>
+        </div>
+        <div class="rightside-happens-headline">
+          <div>
+            <img src="headline.jpeg">
+          </div>
+          <div style="display: flex; flex-direction: column;">
+            <p class="rightside-happens-headline-title">Cardinals at Bills</p>
+            <p class="rightside-happens-headline-subtitle">NFL · 30 minutes ago</p>
+          </div>
+        </div>
+        <div class="rightside-happens-trends">
+          <div style="display: flex; width:100%; justify-content: space-between; align-items:self-start;">
+            <div>
+              <p class="rightside-happens-headline-subtitle">
+                Entertainment · Trending
+              </p>
+            </div>
+            <div>
+              <img src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="rightside-happens-trends-title">Ebuka</p>
+          </div>
+          <div>
+            <p class="rightside-happens-headline-subtitle">11.9K posts</p>
+          </div>
+        </div>
+        <div class="rightside-happens-trends">
+          <div style="display: flex; width:100%; justify-content: space-between; align-items:self-start;">
+            <div>
+              <p class="rightside-happens-headline-subtitle">
+                Entertainment · Trending
+              </p>
+            </div>
+            <div>
+              <img src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="rightside-happens-trends-title">Ron Howard</p>
+          </div>
+          <div>
+            <p class="rightside-happens-headline-subtitle">2,839K posts</p>
+          </div>
+        </div>
+        <div class="rightside-happens-trends">
+          <div style="display: flex; width:100%; justify-content: space-between; align-items:self-start;">
+            <div>
+              <p class="rightside-happens-headline-subtitle">
+                Entertainment · Trending
+              </p>
+            </div>
+            <div>
+              <img src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="rightside-happens-trends-title">Leon Musk</p>
+          </div>
+          <div>
+            <p class="rightside-happens-headline-subtitle">16.9K posts</p>
+          </div>
+        </div>
+        <div class="rightside-happens-trends">
+          <div style="display: flex; width:100%; justify-content: space-between; align-items:self-start;">
+            <div>
+              <p class="rightside-happens-headline-subtitle">
+                Entertainment · Trending
+              </p>
+            </div>
+            <div>
+              <img src="icon/more-gray.png">
+            </div>
+          </div>
+          <div>
+            <p class="rightside-happens-trends-title">#Jaguars</p>
+          </div>
+          <div>
+            <p class="rightside-happens-headline-subtitle">2,244 posts</p>
+          </div>
+        </div>
+        <div class="rightside-happens-showmore" style="margin-top: 10px; margin-bottom: 4px;   box-sizing: border-box;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 349px;
+        margin-left: -16px;
+        height: 50px;
+        display: flex;
+        align-items: center;">
+          <p style="color: rgb(64, 156, 255);">Show more</p>
+        </div>
+      </div>
+
+      <div class="rightside-follow">
+        <div class="rightside-happens-title">
+          <p>Who to Follow</p>
+        </div>
+        <div class="rightside-follow-people">
+          <div>
+            <img class="rightside-follow-people-head" src="NBA.jpg">
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; align-items: center; margin-left: -66px;">
+              <div>
+                <p class="rightside-follow-people-info" style="color: white; font-size: 16px; font-weight: bold;">NBA on ESPN</p>
+              </div>
+              <div>
+                <img class="rightside-follow-people-verified" src="icon/verified.png">
+              </div>
+            </div>
+            <div class="rightside-follow-people-name">
+              <p>
+                @ESPNNBA
+              </p>
+            </div>
+          </div>
+            <div class="rightside-follow-people-button">
+              <button>Follow</button>
+            </div>
+        </div>
+        <div class="rightside-follow-people">
+          <div>
+            <img class="rightside-follow-people-head" src="sportscenter.png">
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; align-items: center; margin-left: -66px;">
+              <div>
+                <p class="rightside-follow-people-info" style="color: white; font-size: 16px; font-weight: bold;">SportsCenter</p>
+              </div>
+              <div>
+                <img class="rightside-follow-people-verified" src="icon/verified.png">
+              </div>
+            </div>
+            <div class="rightside-follow-people-name">
+              <p style="margin-left: -76px;">
+                @SportsCenter
+              </p>
+            </div>
+          </div>
+            <div class="rightside-follow-people-button">
+              <button>Follow</button>
+            </div>
+        </div>
+        <div class="rightside-follow-people">
+          <div style="position: relative;">
+            <img class="rightside-follow-people-head" src="Adrian.jpg">
+          </div>
+          <div style="display: flex; flex-direction: column; align-items: center;">
+            <div style="display: flex; align-items: center; margin-left: -25px;">
+              <div>
+                <p class="rightside-follow-people-info" style="color: white; font-size: 16px; font-weight: bold;">Adrian Wojarowski</p>
+              </div>
+              <div>
+                <img class="rightside-follow-people-verified" src="icon/verified.png">
+              </div>
+            </div>
+            <div class="rightside-follow-people-name">
+              <p style="margin-left: -92px;">
+                @wojespn
+              </p>
+            </div>
+          </div>
+            <div class="rightside-follow-people-button">
+              <button>Follow</button>
+            </div>
+        </div>
+        <div class="rightside-happens-showmore" style="margin-top: 10px; margin-bottom: 4px;   box-sizing: border-box;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 349px;
+        margin-left: -16px;
+        height: 50px;
+        display: flex;
+        align-items: center;">
+          <p style="color: rgb(64, 156, 255);">Show more</p>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+
+  </body>
+</html>

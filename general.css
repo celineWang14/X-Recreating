@@ -1,0 +1,14 @@
+body{
+  background-color: rgb(0, 0, 0);
+  font-family:"Roboto", san-serif;
+  height: 5000px;
+  overflow: auto;
+}
+
+p{
+  margin: 0px;
+}
+
+.layout{
+  display: flex;
+}
